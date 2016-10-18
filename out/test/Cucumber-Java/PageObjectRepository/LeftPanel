@@ -1,0 +1,11 @@
+{
+  "Leftpanel":
+  [
+    {
+      "Search Image":
+      {
+        "Locator": "XPath://a[@class='linktabs']"
+      }
+    }
+  ]
+}

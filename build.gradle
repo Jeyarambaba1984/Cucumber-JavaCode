@@ -1,0 +1,30 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.7
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.4'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+    testCompile group: 'info.cukes', name: 'cucumber-java', version: '1.2.4'
+    testCompile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.6.2'
+    testCompile group: 'net.masterthought', name: 'cucumber-reporting', version: "0.4.0"
+    testCompile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.1'
+    testCompile group: 'org.json', name: 'json', version: '20160212'
+    testCompile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.0.0-beta3'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.53.1'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-htmlunit-driver', version: '2.52.0'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-ie-driver', version: '2.53.0'
+    testCompile group: 'docs.seleniumhq', name: 'IEDriverServer_x64', version: '2.53.1'
+    testCompile group: 'docs.seleniumhq', name: 'IEDriverServer_Win32', version: '2.53.1'
+}
+

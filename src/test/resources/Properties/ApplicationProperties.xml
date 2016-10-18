@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Application>
+    <App Type="CAE">
+        <URL>http://abn-ode-web-c12.ode.trizetto.com/carekeyex/Login/login.aspx</URL>
+    </App>
+
+    <App Type="Google">
+        <URL>https://www.google.com/</URL>
+    </App>
+
+</Application>

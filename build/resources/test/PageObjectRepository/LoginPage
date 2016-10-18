@@ -1,0 +1,17 @@
+{
+  "LoginPage": [
+    {
+      "Username textbox": {
+        "Locator": "ID: LoginCtrl1_txtUserID"
+      },
+      "Password textbox": {
+        "Locator": "ID:LoginCtrl1_txtPassword"
+      },
+      "Login button": {
+        "Locator": "XPath://*[@id='LoginCtrl1_btnSubmit']"
+      }
+    }
+  ]
+}
+
+

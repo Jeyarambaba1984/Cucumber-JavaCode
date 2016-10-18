@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<BrowserProperties>
+    <Browser Type="IE32">
+        <Path>\\src\\test\\resources\\Properties\\DriverServers\\IEDriverServer_Win32\\IEDriverServer.exe</Path>
+    </Browser>
+
+    <Browser Type="IE64">
+        <Path>\\src\\test\\resources\\Properties\\DriverServers\\IEDriverServer_x64\\IEDriverServer.exe</Path>
+    </Browser>
+
+    <Browser Type="Chrome">
+        <Path>\\src\\test\\resources\\Properties\\DriverServers\\ChromeDriverServer\\chromedriver.exe</Path>
+    </Browser>
+</BrowserProperties>
